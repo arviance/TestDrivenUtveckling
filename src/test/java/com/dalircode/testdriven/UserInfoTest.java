@@ -18,13 +18,20 @@ class UserInfoTest {
     }
 
     @Test
-    void test_name_and_password() {
+    void test_name_and_password_successful() {
         assertThat(user.getName(), is("Kamran"));
         assertThat(user.getPassword(), is("123456"));
 
         assertEquals("Kamran", user.getName());
         assertEquals("123456", user.getPassword());
+    }
 
+    @Test
+    void test_name_and_password_fail() {
+        assertThat(user.getName(), is("Kamran"));
+        assertThat(user.getPassword(), is("12345"));
 
+        assertEquals("Kamran", user.getName());
+        assertEquals("123456", user.getPassword());
     }
 }
