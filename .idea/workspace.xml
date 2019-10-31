@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93c07931-1e38-4b1c-a1da-c4f769da581a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/dalircode/testdriven/UserInfoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dalircode/testdriven/InputControl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/dalircode/testdriven/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dalircode/testdriven/UserInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dalircode/testdriven/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dalircode/testdriven/UserInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/dalircode/testdriven/UserInfoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/dalircode/testdriven/UserInfoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dalircode/testdriven/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dalircode/testdriven/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dalircode/testdriven/UserInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dalircode/testdriven/UserInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/dalircode/testdriven/UserInfoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/dalircode/testdriven/UserInfoTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -69,8 +72,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UserInfoTest.test_login_password_fail">
-    <configuration name="UserInfoTest.test_login_name_fail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.UserInfoTest.check_login_correct">
+    <configuration name="UserInfoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestdrivenUtveckling" />
       <extension name="coverage">
         <pattern>
@@ -80,13 +83,28 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.dalircode.testdriven" />
       <option name="MAIN_CLASS_NAME" value="com.dalircode.testdriven.UserInfoTest" />
-      <option name="METHOD_NAME" value="test_login_name_fail(java.lang.String)" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserInfoTest.check_login_correct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestdrivenUtveckling" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dalircode.testdriven.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dalircode.testdriven" />
+      <option name="MAIN_CLASS_NAME" value="com.dalircode.testdriven.UserInfoTest" />
+      <option name="METHOD_NAME" value="check_login_correct(org.junit.jupiter.params.aggregator.ArgumentsAccessor)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserInfoTest.test_login_name_successful (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserInfoTest.fullName_ShouldGenerateTheExpectedFullName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestdrivenUtveckling" />
       <extension name="coverage">
         <pattern>
@@ -96,13 +114,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.dalircode.testdriven" />
       <option name="MAIN_CLASS_NAME" value="com.dalircode.testdriven.UserInfoTest" />
-      <option name="METHOD_NAME" value="test_login_name_successful(java.lang.String)" />
+      <option name="METHOD_NAME" value="fullName_ShouldGenerateTheExpectedFullName(org.junit.jupiter.params.aggregator.ArgumentsAccessor)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserInfoTest.test_login_password_fail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserInfoTest.test_login_successful (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestdrivenUtveckling" />
       <extension name="coverage">
         <pattern>
@@ -112,13 +130,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.dalircode.testdriven" />
       <option name="MAIN_CLASS_NAME" value="com.dalircode.testdriven.UserInfoTest" />
-      <option name="METHOD_NAME" value="test_login_password_fail(java.lang.String)" />
+      <option name="METHOD_NAME" value="test_login_successful" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserInfoTest.test_login_password_successful (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserInfoTest.test_login_successful" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestdrivenUtveckling" />
       <extension name="coverage">
         <pattern>
@@ -128,23 +146,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.dalircode.testdriven" />
       <option name="MAIN_CLASS_NAME" value="com.dalircode.testdriven.UserInfoTest" />
-      <option name="METHOD_NAME" value="test_login_password_successful(java.lang.String)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserInfoTest.test_login_password_successful" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TestdrivenUtveckling" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dalircode.testdriven.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.dalircode.testdriven" />
-      <option name="MAIN_CLASS_NAME" value="com.dalircode.testdriven.UserInfoTest" />
-      <option name="METHOD_NAME" value="test_login_password_successful" />
+      <option name="METHOD_NAME" value="test_login_successful(java.lang.String,java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -152,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserInfoTest.test_login_password_fail" />
-        <item itemvalue="JUnit.UserInfoTest.test_login_name_fail" />
-        <item itemvalue="JUnit.UserInfoTest.test_login_password_successful (1)" />
-        <item itemvalue="JUnit.UserInfoTest.test_login_name_successful (1)" />
-        <item itemvalue="JUnit.UserInfoTest.test_login_password_successful" />
+        <item itemvalue="JUnit.UserInfoTest.check_login_correct" />
+        <item itemvalue="JUnit.UserInfoTest.fullName_ShouldGenerateTheExpectedFullName" />
+        <item itemvalue="JUnit.UserInfoTest.test_login_successful (1)" />
+        <item itemvalue="JUnit.UserInfoTest.test_login_successful" />
+        <item itemvalue="JUnit.UserInfoTest" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +175,13 @@
       <workItem from="1572377567259" duration="749000" />
       <workItem from="1572423376656" duration="4209000" />
       <workItem from="1572427623012" duration="1163000" />
-      <workItem from="1572428798570" duration="2712000" />
+      <workItem from="1572428798570" duration="5518000" />
+      <workItem from="1572434332321" duration="679000" />
+      <workItem from="1572441272565" duration="147000" />
+      <workItem from="1572449584860" duration="34000" />
+      <workItem from="1572456865151" duration="10000" />
+      <workItem from="1572516564959" duration="409000" />
+      <workItem from="1572520199295" duration="2018000" />
     </task>
     <servers />
   </component>
