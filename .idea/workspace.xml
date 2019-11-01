@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93c07931-1e38-4b1c-a1da-c4f769da581a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dalircode/testdriven/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dalircode/testdriven/UserInfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/dalircode/testdriven/UserInfoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/dalircode/testdriven/UserInfoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dalircode/testdriven/UserInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dalircode/testdriven/UserInfo.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -98,22 +101,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserInfoTest.fullName_ShouldGenerateTheExpectedFullName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TestdrivenUtveckling" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dalircode.testdriven.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.dalircode.testdriven" />
-      <option name="MAIN_CLASS_NAME" value="com.dalircode.testdriven.UserInfoTest" />
-      <option name="METHOD_NAME" value="fullName_ShouldGenerateTheExpectedFullName(org.junit.jupiter.params.aggregator.ArgumentsAccessor)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="UserInfoTest.test_name_and_password" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestdrivenUtveckling" />
       <extension name="coverage">
@@ -146,13 +133,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserInfoTest.test_name_and_password_successful" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestdrivenUtveckling" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dalircode.testdriven.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dalircode.testdriven" />
+      <option name="MAIN_CLASS_NAME" value="com.dalircode.testdriven.UserInfoTest" />
+      <option name="METHOD_NAME" value="test_name_and_password_successful" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.UserInfoTest.test_name_and_password_fail" />
+        <item itemvalue="JUnit.UserInfoTest.test_name_and_password_successful" />
         <item itemvalue="JUnit.UserInfoTest.test_name_and_password" />
         <item itemvalue="JUnit.UserInfoTest.check_login_correct (1)" />
         <item itemvalue="JUnit.UserInfoTest.check_login_correct" />
-        <item itemvalue="JUnit.UserInfoTest.fullName_ShouldGenerateTheExpectedFullName" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +178,7 @@
       <workItem from="1572449584860" duration="34000" />
       <workItem from="1572456865151" duration="10000" />
       <workItem from="1572516564959" duration="409000" />
-      <workItem from="1572520199295" duration="5026000" />
+      <workItem from="1572520199295" duration="5526000" />
     </task>
     <servers />
   </component>
