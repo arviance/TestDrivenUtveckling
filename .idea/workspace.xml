@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93c07931-1e38-4b1c-a1da-c4f769da581a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/dalircode/testdriven/MainTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestdrivenUtveckling.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dalircode/testdriven/InputControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dalircode/testdriven/LoginInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dalircode/testdriven/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dalircode/testdriven/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dalircode/testdriven/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dalircode/testdriven/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/dalircode/testdriven/UserInfoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/TestdrivenUtveckling.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dalircode/testdriven/InputControl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dalircode/testdriven/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dalircode/testdriven/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dalircode/testdriven/UserInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/TestdrivenUtveckling.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/dalircode/testdriven/UserInfoTest.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +28,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -40,7 +51,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TddJunitTest" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -66,8 +77,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UserInfoTest.test_name_and_password_fail">
-    <configuration name="UserInfoTest.check_login_correct (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MainTest.testLogin">
+    <configuration name="MainTest.testLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestdrivenUtveckling" />
       <extension name="coverage">
         <pattern>
@@ -76,8 +87,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.dalircode.testdriven" />
-      <option name="MAIN_CLASS_NAME" value="com.dalircode.testdriven.UserInfoTest" />
-      <option name="METHOD_NAME" value="check_login_correct(java.lang.String,java.lang.String)" />
+      <option name="MAIN_CLASS_NAME" value="com.dalircode.testdriven.MainTest" />
+      <option name="METHOD_NAME" value="testLogin" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -93,7 +104,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.dalircode.testdriven" />
       <option name="MAIN_CLASS_NAME" value="com.dalircode.testdriven.UserInfoTest" />
-      <option name="METHOD_NAME" value="check_login_correct(org.junit.jupiter.params.aggregator.ArgumentsAccessor)" />
+      <option name="METHOD_NAME" value="check_login_correct(java.lang.String,java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -149,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MainTest.testLogin" />
         <item itemvalue="JUnit.UserInfoTest.test_name_and_password_fail" />
         <item itemvalue="JUnit.UserInfoTest.test_name_and_password_successful" />
         <item itemvalue="JUnit.UserInfoTest.test_name_and_password" />
         <item itemvalue="JUnit.UserInfoTest.check_login_correct (1)" />
-        <item itemvalue="JUnit.UserInfoTest.check_login_correct" />
       </list>
     </recent_temporary>
   </component>
@@ -178,6 +189,7 @@
       <workItem from="1572516564959" duration="409000" />
       <workItem from="1572520199295" duration="5526000" />
       <workItem from="1572640831948" duration="140000" />
+      <workItem from="1572732729736" duration="2726000" />
     </task>
     <servers />
   </component>
