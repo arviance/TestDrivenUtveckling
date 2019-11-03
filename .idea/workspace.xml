@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93c07931-1e38-4b1c-a1da-c4f769da581a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/dalircode/testdriven/MainTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dalircode/testdriven/InputControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dalircode/testdriven/LoginInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dalircode/testdriven/LoginInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dalircode/testdriven/LoginInfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/dalircode/testdriven/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dalircode/testdriven/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dalircode/testdriven/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dalircode/testdriven/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/dalircode/testdriven/UserInfoTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/TestdrivenUtveckling.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dalircode/testdriven/InputControl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dalircode/testdriven/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dalircode/testdriven/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dalircode/testdriven/UserInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/TestdrivenUtveckling.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/dalircode/testdriven/UserInfoTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/dalircode/testdriven/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/dalircode/testdriven/MainTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -164,7 +155,6 @@
         <item itemvalue="JUnit.UserInfoTest.test_name_and_password_fail" />
         <item itemvalue="JUnit.UserInfoTest.test_name_and_password_successful" />
         <item itemvalue="JUnit.UserInfoTest.test_name_and_password" />
-        <item itemvalue="JUnit.UserInfoTest.check_login_correct (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -190,6 +180,10 @@
       <workItem from="1572520199295" duration="5526000" />
       <workItem from="1572640831948" duration="140000" />
       <workItem from="1572732729736" duration="2726000" />
+      <workItem from="1572736797419" duration="240000" />
+      <workItem from="1572666295313" duration="2000" />
+      <workItem from="1572724769106" duration="17000" />
+      <workItem from="1572792676876" duration="987000" />
     </task>
     <servers />
   </component>

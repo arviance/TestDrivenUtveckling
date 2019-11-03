@@ -4,24 +4,24 @@ public class Main {
 
     public static void main(String[] args) {
 
-        LoginInfo passedLoginInfo = new LoginInfo("user1", true);
-        LoginInfo failedLoginInfo = new LoginInfo("user2", false);
+        LoginInfo test1 = new LoginInfo("Kamran", true);
+        LoginInfo test2 = new LoginInfo("Anhur", false);
 
         Account kamran = new Account("Kamran", "123456");
         Account anhur = new Account("Anhur", "losen");
 
-        passedLoginInfo.passedLogin(kamran);
-        passedLoginInfo.failedLogin(kamran);
-        passedLoginInfo.passedLogin(anhur);
-        passedLoginInfo.failedLogin(anhur);
+        test1.successfulLogin(kamran);
+        test1.failedLogin(kamran);
+        test1.successfulLogin(anhur);
+        test1.failedLogin(anhur);
 
         System.out.println("Login Correct:");
-        for (Account account: passedLoginInfo.getUserList()) {
+        for (Account account: test1.getUserList()) {
             System.out.println(account.getName());
         }
 
         System.out.println("Login Wrong: ");
-        for (Account account: failedLoginInfo.getUserList()) {
+        for (Account account: test2.getUserList()) {
             System.out.println(account.getName());
         }
 

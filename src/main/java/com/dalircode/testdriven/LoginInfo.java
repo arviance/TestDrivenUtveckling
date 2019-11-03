@@ -7,7 +7,7 @@ public class LoginInfo {
 
     private String user;
     private boolean pass;
-    private List<Account> userList = new ArrayList<Account>();
+    private List<Account> userList = new ArrayList<>();
 
     public LoginInfo(String user, boolean pass) {
         this.user = user;
@@ -26,10 +26,11 @@ public class LoginInfo {
         return userList;
     }
 
-    public boolean passedLogin(Account account) {
+    public boolean successfulLogin(Account account) {
         if (pass) {
             return userList.add(account);
         } else
+
             return false;
     }
 
