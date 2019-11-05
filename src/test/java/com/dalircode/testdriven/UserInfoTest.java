@@ -1,30 +1,25 @@
 package com.dalircode.testdriven;
 
 import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.params.ParameterizedTest;
-import org.junit.jupiter.params.aggregator.ArgumentsAccessor;
-import org.junit.jupiter.params.provider.CsvSource;
+import org.junit.jupiter.api.Test;
 
-import static junit.framework.Assert.assertEquals;
-
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.Matchers.is;
 class UserInfoTest {
 
     UserInfo user;
 
     @BeforeEach
-    void setUp() {
-        user = new UserInfo();
+    void setup() {
+        user = new UserInfo("ann", "1234");
     }
 
-    @ParameterizedTest
-    @CsvSource({"anna, losen", "bergit, 123456", "kalle, pass"})
-    void check_login_correct(ArgumentsAccessor argumentsAccessor) {
-        String userName = argumentsAccessor.getString(0);
-        String passWord = argumentsAccessor.get(1, String.class);
-        String expectedFullInfo = argumentsAccessor.getString(2);
 
-        UserInfo user = new UserInfo();
-        assertEquals(expectedFullInfo, user.fullInfo());
+    @Test
+    void user_info_is_correct() {
+        assertThat(user.getUsername(), is("ann"));
+        assertThat(user.getPassword(), is("1234"));
     }
+
 
 }

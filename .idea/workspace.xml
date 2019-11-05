@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93c07931-1e38-4b1c-a1da-c4f769da581a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dalircode/testdriven/InputControl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/dalircode/testdriven/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dalircode/testdriven/UserInfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/dalircode/testdriven/UserInfoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/dalircode/testdriven/UserInfoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/dalircode/testdriven/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dalircode/testdriven/Main.class" afterDir="false" />
@@ -47,6 +45,8 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Login" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -72,22 +72,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UserInfoTest.check_login_correct">
-    <configuration name="UserInfoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TestdrivenUtveckling" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dalircode.testdriven.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.dalircode.testdriven" />
-      <option name="MAIN_CLASS_NAME" value="com.dalircode.testdriven.UserInfoTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.UserInfoTest.user_info_is_correct">
     <configuration name="UserInfoTest.check_login_correct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestdrivenUtveckling" />
       <extension name="coverage">
@@ -152,13 +137,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserInfoTest.user_info_is_correct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestdrivenUtveckling" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dalircode.testdriven.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dalircode.testdriven" />
+      <option name="MAIN_CLASS_NAME" value="com.dalircode.testdriven.UserInfoTest" />
+      <option name="METHOD_NAME" value="user_info_is_correct" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserInfoTest.user_info_is_correct" />
         <item itemvalue="JUnit.UserInfoTest.check_login_correct" />
         <item itemvalue="JUnit.UserInfoTest.fullName_ShouldGenerateTheExpectedFullName" />
         <item itemvalue="JUnit.UserInfoTest.test_login_successful (1)" />
         <item itemvalue="JUnit.UserInfoTest.test_login_successful" />
-        <item itemvalue="JUnit.UserInfoTest" />
       </list>
     </recent_temporary>
   </component>

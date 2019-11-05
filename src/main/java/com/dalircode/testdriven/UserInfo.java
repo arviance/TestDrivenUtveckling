@@ -2,13 +2,28 @@ package com.dalircode.testdriven;
 
 public class UserInfo {
 
-    String userName;
-    String userPassword;
+    String username,
+            password;
 
 
+    public UserInfo(String username, String password){
+        this.username= username;
+        this.password = password;
 
-    public String fullInfo() {
-
-        return String.format("%s %s %s", userName, userPassword);
     }
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+    public String getUsername() {
+        return username;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
+    }
+
 }
