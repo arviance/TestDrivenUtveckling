@@ -10,17 +10,9 @@ public class loginCheck {
     User user3 = new User( "martin", "klĂ¤schen");
     User user4 = new User( "lotta", "kuparinen");
 
-
-
-
     List<User> users = Arrays.asList(user1, user2, user3, user4);
 
     public boolean loginProccess(String username, String password) {
         return users.contains(new User(username, password));
     }
-
-
-
-
-
 }
