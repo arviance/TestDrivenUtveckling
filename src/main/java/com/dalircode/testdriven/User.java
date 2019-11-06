@@ -1,4 +1,4 @@
 package com.dalircode.testdriven;
 
-public class user {
+public class User {
 }
