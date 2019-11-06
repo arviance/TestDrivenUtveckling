@@ -1,5 +1,4 @@
 package com.dalircode.testdriven;
 
-public class InputControl {
-
+public class loginCheck {
 }
