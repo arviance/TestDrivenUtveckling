@@ -8,18 +8,22 @@ import org.junit.jupiter.params.provider.ValueSource;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
+
 class loginCheckTest{
-    private loginCheck
-    loginCheck;
+    private LoginCheck
+            loginCheck;
 
     @BeforeEach
+
+
     void setUp(){
-        loginCheck = new loginCheck();
+        loginCheck = new LoginCheck();
     }
 
     @Test
     void
     test_login_anhar_succsess() {
+
 
         boolean loginResult = loginCheck.loginProccess("anhar", "shebib");
 
@@ -61,4 +65,5 @@ class loginCheckTest{
 
 
 
+}
 }

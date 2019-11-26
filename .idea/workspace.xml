@@ -1,13 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="93c07931-1e38-4b1c-a1da-c4f769da581a" name="Default Changelist" comment="">
+    <list default="true" id="93c07931-1e38-4b1c-a1da-c4f769da581a" name="Default Changelist" comment="halvt ok">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dalircode/testdriven/Token.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dalircode/testdriven/TokenRegister.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/dalircode/testdriven/TokenRegisterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dalircode/testdriven/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dalircode/testdriven/UserInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/dalircode/testdriven/UserInfoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/dalircode/testdriven/UserInfoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dalircode/testdriven/LoginCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dalircode/testdriven/LoginCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dalircode/testdriven/LoginCheckService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dalircode/testdriven/LoginCheckService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dalircode/testdriven/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dalircode/testdriven/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dalircode/testdriven/PasswordEncrypter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dalircode/testdriven/PasswordEncrypter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dalircode/testdriven/PasswordEncrypterClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dalircode/testdriven/PasswordEncrypterClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dalircode/testdriven/PermissionList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dalircode/testdriven/PermissionList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dalircode/testdriven/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dalircode/testdriven/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dalircode/testdriven/loginCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dalircode/testdriven/Map.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/dalircode/testdriven/LoginCheckServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/dalircode/testdriven/LoginCheckServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/dalircode/testdriven/LoginCheckToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/dalircode/testdriven/LoginCheckToken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/dalircode/testdriven/PasswordEncrypterClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/dalircode/testdriven/PasswordEncrypterClassTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/dalircode/testdriven/PasswordEncrypterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/dalircode/testdriven/PasswordEncrypterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/dalircode/testdriven/loginCheckTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/dalircode/testdriven/loginCheckTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/dalircode/testdriven/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dalircode/testdriven/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dalircode/testdriven/UserInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dalircode/testdriven/UserInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/dalircode/testdriven/UserInfoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/dalircode/testdriven/UserInfoTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,12 +34,18 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -37,23 +56,32 @@
     </option>
   </component>
   <component name="ProjectId" id="1StKgiqrPRGdGwjG9hg43tZrHv3" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Login" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pokemon" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.dalircode.testdriven" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.dalircode.testdriven" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -72,8 +100,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UserInfoTest.user_info_is_correct">
-    <configuration name="UserInfoTest.check_login_correct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TokenRegisterTest">
+    <configuration name="LoginCheckToken" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestdrivenUtveckling" />
       <extension name="coverage">
         <pattern>
@@ -82,14 +110,44 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.dalircode.testdriven" />
-      <option name="MAIN_CLASS_NAME" value="com.dalircode.testdriven.UserInfoTest" />
-      <option name="METHOD_NAME" value="check_login_correct(org.junit.jupiter.params.aggregator.ArgumentsAccessor)" />
+      <option name="MAIN_CLASS_NAME" value="com.dalircode.testdriven.LoginCheckToken" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PasswordEncrypterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestdrivenUtveckling" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dalircode.testdriven.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dalircode.testdriven" />
+      <option name="MAIN_CLASS_NAME" value="com.dalircode.testdriven.PasswordEncrypterTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PasswordEncrypterTest.test_hash_password" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestdrivenUtveckling" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dalircode.testdriven.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dalircode.testdriven" />
+      <option name="MAIN_CLASS_NAME" value="com.dalircode.testdriven.PasswordEncrypterTest" />
+      <option name="METHOD_NAME" value="test_hash_password" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserInfoTest.fullName_ShouldGenerateTheExpectedFullName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TokenRegisterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestdrivenUtveckling" />
       <extension name="coverage">
         <pattern>
@@ -98,14 +156,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.dalircode.testdriven" />
-      <option name="MAIN_CLASS_NAME" value="com.dalircode.testdriven.UserInfoTest" />
-      <option name="METHOD_NAME" value="fullName_ShouldGenerateTheExpectedFullName(org.junit.jupiter.params.aggregator.ArgumentsAccessor)" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="com.dalircode.testdriven.TokenRegisterTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserInfoTest.test_login_successful (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="loginCheckTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestdrivenUtveckling" />
       <extension name="coverage">
         <pattern>
@@ -114,52 +171,19 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.dalircode.testdriven" />
-      <option name="MAIN_CLASS_NAME" value="com.dalircode.testdriven.UserInfoTest" />
-      <option name="METHOD_NAME" value="test_login_successful" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserInfoTest.test_login_successful" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TestdrivenUtveckling" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dalircode.testdriven.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.dalircode.testdriven" />
-      <option name="MAIN_CLASS_NAME" value="com.dalircode.testdriven.UserInfoTest" />
-      <option name="METHOD_NAME" value="test_login_successful(java.lang.String,java.lang.String)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserInfoTest.user_info_is_correct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TestdrivenUtveckling" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dalircode.testdriven.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.dalircode.testdriven" />
-      <option name="MAIN_CLASS_NAME" value="com.dalircode.testdriven.UserInfoTest" />
-      <option name="METHOD_NAME" value="user_info_is_correct" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="com.dalircode.testdriven.loginCheckTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserInfoTest.user_info_is_correct" />
-        <item itemvalue="JUnit.UserInfoTest.check_login_correct" />
-        <item itemvalue="JUnit.UserInfoTest.fullName_ShouldGenerateTheExpectedFullName" />
-        <item itemvalue="JUnit.UserInfoTest.test_login_successful (1)" />
-        <item itemvalue="JUnit.UserInfoTest.test_login_successful" />
+        <item itemvalue="JUnit.TokenRegisterTest" />
+        <item itemvalue="JUnit.PasswordEncrypterTest.test_hash_password" />
+        <item itemvalue="JUnit.PasswordEncrypterTest" />
+        <item itemvalue="JUnit.LoginCheckToken" />
+        <item itemvalue="JUnit.loginCheckTest" />
       </list>
     </recent_temporary>
   </component>
@@ -183,6 +207,9 @@
       <workItem from="1572456865151" duration="10000" />
       <workItem from="1572516564959" duration="409000" />
       <workItem from="1572520199295" duration="2018000" />
+      <workItem from="1573549172877" duration="5657000" />
+      <workItem from="1573558635206" duration="23082000" />
+      <workItem from="1574758556249" duration="603000" />
     </task>
     <servers />
   </component>
@@ -201,5 +228,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="halvt ok" />
+    <option name="LAST_COMMIT_MESSAGE" value="halvt ok" />
+    <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
 </project>
