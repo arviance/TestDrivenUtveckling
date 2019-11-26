@@ -14,7 +14,11 @@ import static org.mockito.Matchers.anyString;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
+<<<<<<< HEAD
 public class AuthenticationServiceVerifyTokenTest {
+=======
+public class LoginCheckToken {
+>>>>>>> anhar
 
     private LoginCheckService logincheck;
     private Token workingToken;

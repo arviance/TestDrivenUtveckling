@@ -1,4 +1,7 @@
 package com.dalircode.testdriven;
 
-public class Passwordencrypter {
+public interface PasswordEncrypter {
+
+    public String encrypt(String password);
+
 }
