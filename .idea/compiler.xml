@@ -9,5 +9,8 @@
         <module name="TestdrivenUtveckling" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="TestdrivenUtveckling" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
