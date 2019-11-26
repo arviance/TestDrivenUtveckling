@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
 <<<<<<< HEAD
     <list default="true" id="93c07931-1e38-4b1c-a1da-c4f769da581a" name="Default Changelist" comment="">
+<<<<<<< HEAD
 =======
     <list default="true" id="47fb7856-0201-4a2c-a8c8-33ca48dc743c" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/src/main/java/com/dalircode/testdriven/Token.java" afterDir="false" />
@@ -35,6 +36,9 @@
 >>>>>>> anhar
       <change beforePath="$PROJECT_DIR$/src/test/java/com/dalircode/testdriven/loginCheckTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/dalircode/testdriven/loginCheckTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/dalircode/testdriven/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dalircode/testdriven/Main.class" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dalircode/testdriven/Main.java" beforeDir="false" />
+>>>>>>> fafc6d07fb01e3fa74991590a8fcda8daf883c27
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
